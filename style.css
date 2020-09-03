@@ -1,0 +1,45 @@
+@media (max-width:800px)
+{
+    body{
+        background-color:lightgray;
+    }
+}
+main{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#email{
+    margin: 10px;
+}
+#submit{
+    display:block;
+    margin: 0 auto;
+    border-style: none;
+    padding: 10px;
+    background-color: yellow;
+}
+#features{
+    text-align:left;
+    margin: 0 auto;
+}
+#nav-bar{
+    float: right;
+}
+#header-img{
+    margin-left:50px;
+    width:200px;
+    height:auto;
+}
+header{
+    background: lightgray;
+    padding: 15px;
+    position: fixed;
+    top:0;
+    width:100%;
+}
+.nav-link{
+    text-decoration: none;
+    padding: 15px;
+    color: black;
+}
